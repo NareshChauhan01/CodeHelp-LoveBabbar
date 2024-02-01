@@ -1,0 +1,34 @@
+/* resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/*Utility Classes*/
+.border {
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
