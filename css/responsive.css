@@ -1,0 +1,82 @@
+/* ------------- 1280px ------------- */
+/* ============ Header Start ============ */
+@media(max-width:1280px) {
+    .top-header {
+        height: 4.7rem;
+        display: flex;
+        /* align-items: center; */
+    }
+
+    .top-header .left-section {
+        max-height: 4.7rem;
+        flex-direction: column;
+        gap: 0.625rem;
+    }
+}
+
+/* ------------- 1280px ------------- */
+/* ============ Header End ============ */
+
+
+
+/* ------------- 1200px ------------- */
+/* ============ Header Start ============ */
+@media (max-width:1200px) {
+    .sub-top-header {
+        width: 1080px;
+    }
+}
+
+/* ------------- 1200px ------------- */
+/* ============ Header Start ============ */
+
+
+
+/* ------------- 1080px ------------- */
+/* ============ Header Start ============ */
+@media (max-width:1080px) {
+    .sub-top-header {
+        width: 992px;
+    }
+}
+
+/* ------------- 1080px ------------- */
+/* ============ Header End ============ */
+
+
+
+/* ------------- 992px ------------- */
+/* ============ Header Start ============ */
+@media (max-width:992px) {
+    .sub-top-header {
+        width: 768px;
+    }
+}
+
+/* ------------- 992px ------------- */
+/* ============ Header End ============ */
+
+
+
+
+/* ------------- 768px ------------- */
+/* ============ Header Start ============ */
+@media (max-width:768px) {
+    .sub-top-header {
+        width: 576px;
+    }
+}
+
+/* ------------- 992px ------------- */
+/* ============ Header End ============ */
+
+/* ------------- 576px ------------- */
+/* ============ Header Start ============ */
+@media (max-width:576px) {
+    .sub-top-header {
+        width: 448px;
+    }
+}
+
+/* ------------- 576px ------------- */
+/* ============ Header End ============ */

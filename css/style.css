@@ -1,8 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
 /* resets */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+:root {
+    --black: #000000;
+    --light-black: #011229;
+    --light-blue-text: #6674cc;
+    --extra-light-blue: #7985d2;
+    --light-pink: #f5d0fe;
+    --extra-light-pink: #f5d0fe;
+    --primary-bg-color: #ededed;
+    --white: #f7f8fc;
+    --light-text-color: #777c85;
 }
 
 html,
@@ -31,4 +46,68 @@ a {
 
 .grid {
     display: grid;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.wrapper {
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    width: 100%;
+    position: fixed;
+}
+
+.top-header {
+    height: 3.5rem;
+    background-image: linear-gradient(#6674cc, #b578ff);
+    padding: 4px 0;
+}
+
+.sub-top-header {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 1200px;
+}
+
+.left-section {
+    width: 98%;
+    text-align: center;
+    font-size: 18px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.top-header span {
+    font-weight: 500;
+}
+
+.top-header .coming-soon span {
+    background-color: var(--white);
+    color: var(--light-blue-text);
+    padding: 4px 8px;
+    border-radius: 6px;
+    margin-left: 4px;
+}
+
+header .right-section {
+    display: flex;
+    align-items: center;
+}
+
+header .right-section button {
+    all: unset;
+    color: var(--white);
+}
+
+header .right-section button svg {
+    font-size: 2.2rem;
+    transform: rotate(135deg);
 }
