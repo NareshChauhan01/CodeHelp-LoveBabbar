@@ -16,8 +16,9 @@
     --light-pink: #f5d0fe;
     --extra-light-pink: #f5d0fe;
     --primary-bg-color: #ededed;
-    --white: #f7f8fc;
+    --gray-white: #f7f8fc;
     --light-text-color: #777c85;
+    --white: #FFFFFF;
 }
 
 html,
@@ -56,6 +57,16 @@ a {
     overflow-x: hidden;
 }
 
+.primary-button {
+    background-color: var(--light-blue-text);
+    color: var(--white);
+    padding: 8px 40px;
+    border: none;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    border-radius: 0.375rem;
+}
+
 /* Header */
 header {
     width: 100%;
@@ -78,7 +89,7 @@ header {
     width: 98%;
     text-align: center;
     font-size: 18px;
-    color: var(--white);
+    color: var(--gray-white);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +101,7 @@ header {
 }
 
 .top-header .coming-soon span {
-    background-color: var(--white);
+    background-color: var(--gray-white);
     color: var(--light-blue-text);
     padding: 4px 8px;
     border-radius: 6px;
@@ -104,10 +115,46 @@ header .right-section {
 
 header .right-section button {
     all: unset;
-    color: var(--white);
+    color: var(--gray-white);
 }
 
 header .right-section button svg {
     font-size: 2.2rem;
     transform: rotate(135deg);
 }
+
+/* nav-start */
+nav {
+    background-color: var(--gray-white);
+    padding: 16px 0;
+    box-shadow: rgba(157, 157, 157, 0.2) 0px 4px 10px;
+    height: 5.8rem;
+}
+
+nav .sub-nav {
+    /* width: 1300px; */
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    column-gap: 2rem;
+}
+
+nav ul li a {
+    font-size: 1.125rem;
+    color: var(--black);
+}
+
+nav button svg {
+    margin-left: 8px;
+}
+
+nav .button {
+    column-gap: 0.5rem;
+}
+
+/* nav-end */

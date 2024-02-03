@@ -12,7 +12,39 @@
         flex-direction: column;
         gap: 0.625rem;
     }
+
+    /* nav-start */
+    nav .primary-button span {
+        font-size: .875rem;
+
+    }
+
+    /* nav-end */
 }
+
+/* ------------- 1280px ------------- */
+/* ============ Header End ============ */
+
+
+
+
+
+/* ------------- 850px ------------- */
+/* ============ Header Start ============ */
+
+
+/* nav-start */
+@media(max-width:850px) {
+
+    nav ul,
+    button {
+        display: none !important;
+        background-color: rebeccapurple;
+    }
+}
+
+/* nav-end */
+
 
 /* ------------- 1280px ------------- */
 /* ============ Header End ============ */
