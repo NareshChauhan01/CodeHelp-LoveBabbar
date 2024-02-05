@@ -71,6 +71,7 @@ a {
 header {
     width: 100%;
     position: fixed;
+    z-index: 999;
 }
 
 .top-header {
@@ -133,11 +134,18 @@ nav {
 
 nav .sub-nav {
     /* width: 1300px; */
-    width: 95%;
+    width: 85%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav-button {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav ul {
@@ -155,6 +163,57 @@ nav button svg {
 
 nav .button {
     column-gap: 0.5rem;
+}
+
+.hamburger-icon-container {
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.sub-hamburger {
+    transition: all 4s linear;
+}
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: end;
+    align-items: end;
+}
+
+.hamburger-icon span {
+    width: 100px;
+    height: 4px;
+    background: #000;
+    border-radius: 6px;
+}
+
+.hamburger-icon span:nth-child(1) {
+    width: 40px;
+}
+
+.hamburger-icon span:nth-child(2) {
+    width: 32px;
+}
+
+.hamburger-icon span:nth-child(3) {
+    width: 24px;
+}
+
+.x-mark {
+    font-size: 2.3rem;
+}
+
+.hamburger-icon-container {
+    display: none;
+}
+
+.hamburger-icon-container .x-mark {
+    display: none;
 }
 
 /* nav-end */
