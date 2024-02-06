@@ -1,6 +1,7 @@
 /* ------------- 1280px ------------- */
-/* ============ Header Start ============ */
 @media(max-width:1280px) {
+
+    /* header start */
     .top-header {
         height: 4.7rem;
         display: flex;
@@ -15,11 +16,9 @@
     /* nav-start */
     nav .primary-button span {
         font-size: .875rem;
-
     }
 
     nav .sub-nav {
-        /* width: 1300px; */
         width: 96%;
     }
 
@@ -28,22 +27,96 @@
     }
 
     /* nav-end */
+    /* header end */
+
+    /* hero-section-start */
+    /* left */
+    .hero-section .left .slide-text span {
+        font-size: 2.25rem;
+    }
+
+    .hero-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-section button {
+        padding: 6px 28px;
+        font-size: 0.875rem;
+    }
+
+    .sub-hero-section {
+        justify-content: space-between;
+        height: 700px;
+    }
+
+    .hero-section .right {
+        display: none;
+    }
+
+    .hero-section .right-1 {
+        width: 49%;
+        display: unset;
+    }
+
+    /* hero-section-end */
 }
 
 /* ------------- 1280px ------------- */
-/* ============ Header End ============ */
+
+
+/* ------------- 1200px ------------- */
+@media (max-width:1200px) {
+    .sub-top-header {
+        width: 1080px;
+    }
+}
+
+/* ------------- 1200px ------------- */
+
+
+/* ------------- 1080px ------------- */
+@media (max-width:1080px) {
+    .sub-top-header {
+        width: 992px;
+    }
+}
+
+/* ------------- 1080px ------------- */
+
+
+/* ------------- 1024px ------------- */
+@media(max-width:1024px) {
+
+    /* hero-section-start */
+    .sub-hero-section {
+        width: 92%;
+    }
+
+    .sub-hero-section {
+        height: 500px;
+    }
+
+    /* hero-section-end */
+}
+
+/* ------------- 1024px ------------- */
 
 
 
+/* ------------- 992px ------------- */
+@media (max-width:992px) {
+    .sub-top-header {
+        width: 768px;
+    }
+}
+
+/* ------------- 992px ------------- */
 
 
 /* ------------- 850px ------------- */
-/* ============ Header Start ============ */
-
-
-/* nav-start */
 @media(max-width:850px) {
 
+    /* nav-start */
     nav {
         position: relative;
     }
@@ -91,70 +164,72 @@
     .active .hamburger-icon-container .hamburger-icon {
         display: none;
     }
-}
 
-/* nav-end */
+    /* nav-end */
 
-
-/* ------------- 1280px ------------- */
-/* ============ Header End ============ */
-
-
-
-/* ------------- 1200px ------------- */
-/* ============ Header Start ============ */
-@media (max-width:1200px) {
-    .sub-top-header {
-        width: 1080px;
+    /* hero-section-start */
+    .sub-hero-section {
+        margin-top: 1.3rem;
+        height: 1080px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 2rem;
     }
-}
 
-/* ------------- 1200px ------------- */
-/* ============ Header Start ============ */
-
-
-
-/* ------------- 1080px ------------- */
-/* ============ Header Start ============ */
-@media (max-width:1080px) {
-    .sub-top-header {
-        width: 992px;
+    .hero-section .right-1 {
+        width: 100%;
     }
-}
 
-/* ------------- 1080px ------------- */
-/* ============ Header End ============ */
-
-
-
-/* ------------- 992px ------------- */
-/* ============ Header Start ============ */
-@media (max-width:992px) {
-    .sub-top-header {
-        width: 768px;
+    .hero-section .left {
+        width: 100%;
+        justify-content: center;
     }
+
+    .hero-section .left .slide-text span {
+        font-size: 1.875rem;
+    }
+
+    .hero-section h1 {
+        font-size: 1.25rem;
+    }
+
+    .hero-section button {
+        padding: 6px 20px;
+        font-size: 0.875rem;
+    }
+
+    .hero-section .hero-student {
+        gap: 0.625rem;
+    }
+
+    /* hero-section-end */
 }
 
-/* ------------- 992px ------------- */
-/* ============ Header End ============ */
-
+/* ------------- 850px ------------- */
 
 
 
 /* ------------- 768px ------------- */
-/* ============ Header Start ============ */
 @media (max-width:768px) {
+
+    /* header-start */
     .sub-top-header {
         width: 576px;
     }
+
+    .sub-hero-section {
+        height: 992px;
+    }
+
+    /* header-end */
 }
 
-/* ------------- 992px ------------- */
-/* ============ Header End ============ */
+/* ------------- 768px ------------- */
 
 /* ------------- 576px ------------- */
-/* ============ Header Start ============ */
 @media (max-width:576px) {
+
+    /* header start */
     .sub-top-header {
         width: 448px;
     }
@@ -166,7 +241,15 @@
     .hamburger-icon-container {
         gap: 8px;
     }
+
+    /* header end */
+
+    /* .hero-section-start */
+    .sub-hero-section {
+        height: 786px;
+    }
+
+    /* .hero-section-end */
 }
 
 /* ------------- 576px ------------- */
-/* ============ Header End ============ */

@@ -57,14 +57,23 @@ a {
     overflow-x: hidden;
 }
 
-.primary-button {
-    background-color: var(--light-blue-text);
-    color: var(--white);
-    padding: 8px 40px;
-    border: none;
+.button {
     font-size: 1.125rem;
     line-height: 1.75rem;
     border-radius: 0.375rem;
+    border: none;
+    color: var(--white);
+}
+
+.primary-button {
+    background-color: var(--light-blue-text);
+    padding: 8px 40px;
+}
+
+.secondary-button {
+    background: transparent;
+    color: #000000;
+    border: 1px solid rgb(102 116 204);
 }
 
 /* Header */
@@ -217,3 +226,142 @@ nav .button {
 }
 
 /* nav-end */
+
+/* hero section start*/
+.hero-section {
+    margin-top: 9.3rem;
+    background-image: linear-gradient(to right, #f7f8fc 40%, #f1e4ff);
+    /* do not delete this border */
+    border: 1px solid transparent;
+}
+
+.sub-hero-section {
+    width: 85%;
+    height: 780px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-section .left {
+    width: 45%;
+}
+
+.hero-section .left .sub-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+/* left */
+.hero-section .left span:first-child {
+    color: var(--light-blue-text);
+}
+
+.hero-section .left .slide-text span {
+    font-size: 3.35rem;
+    font-weight: 700;
+}
+
+.hero-section .left .slide-text span:nth-child(2),
+.hero-section .left .slide-text span:nth-child(3) {
+    color: #363A4f;
+}
+
+.hero-section h1 {
+    color: #4A4f5c;
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+
+.hero-section .hero-buttons {
+    gap: 1.2rem;
+}
+
+.hero-section button {
+    padding: 16px 36px;
+}
+
+.hero-section .hero-student {
+    gap: 2rem;
+    margin-top: 32px;
+}
+
+.hero-section .student-images img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.hero-student .student-images img:nth-child(2),
+.hero-student .student-images img:nth-child(3),
+.hero-student .student-images img:nth-child(4),
+.hero-student .student-images img:nth-child(5) {
+    margin-left: -20px;
+}
+
+.student-data p {
+    color: #011229;
+}
+
+.student-data span {
+    color: #777c85;
+}
+
+/* right */
+.hero-section .right {
+    width: 55%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.hero-section .right-1 {
+    display: none;
+}
+
+.hero-section .right-1 img {
+    width: 100%;
+}
+
+.hero-section .right div {
+    position: absolute;
+    animation: mover 3s linear 0s infinite alternate-reverse none;
+}
+
+.hero-section .right .img-1 {
+    left: 40%;
+}
+
+.hero-section .right .img-2 {
+    left: 59%;
+    top: 49%;
+}
+
+.hero-section .right .img-3 {
+    top: 49%;
+    left: 17%;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+/* hero section end*/
