@@ -66,6 +66,15 @@
     }
 
     /* followers section end */
+
+    /* learning section start */
+
+    .learning-section .sub-learning-2 {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 56px;
+    }
+
+    /* learning section end */
 }
 
 /* ------------- 1280px ------------- */
@@ -104,6 +113,28 @@
     }
 
     /* hero-section-end */
+
+    /* learning section start */
+
+    .learning-section .sub-learning-2 {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+
+    .learning-section .sub-learning-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .learning-section .learning-box {
+        width: 100%;
+        max-width: 442px;
+    }
+
+    /* learning section end */
 }
 
 /* ------------- 1024px ------------- */
@@ -219,6 +250,18 @@
     }
 
     /* followers section end */
+
+    /* learning section start */
+    .learning-section .sub-section-1 {
+        line-height: 32px;
+    }
+
+    .learning-section .sub-section-1 h2 {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    /* learning section end */
 }
 
 /* ------------- 850px ------------- */
@@ -292,6 +335,14 @@
     }
 
     /* .hero-section-end */
+
+    /* learing seaction start */
+    .learning-section .learning-box div {
+        padding: 16px;
+    }
+
+    /* learing seaction end */
+
 }
 
 /* ------------- 576px ------------- */
