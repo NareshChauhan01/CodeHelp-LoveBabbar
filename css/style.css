@@ -331,17 +331,17 @@ nav .button {
 }
 
 .hero-section .right .img-1 {
-    left: 40%;
+    left: 45%;
 }
 
 .hero-section .right .img-2 {
-    left: 59%;
+    left: 65%;
     top: 49%;
 }
 
 .hero-section .right .img-3 {
     top: 49%;
-    left: 17%;
+    left: 25%;
 }
 
 @-webkit-keyframes mover {
@@ -365,3 +365,51 @@ nav .button {
 }
 
 /* hero section end*/
+
+/* follower section start */
+.Followers-section {
+    background-color: var(--light-blue-text);
+    color: #FFFFFF;
+    padding: 64px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-follower-section {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Followers-section .follower-box {
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 1rem;
+    overflow: hidden;
+    max-height: 112px;
+}
+
+.sub-follower-section .youtube:nth-child(1),
+.sub-follower-section .twitter:nth-child(2),
+.sub-follower-section .instagram:nth-child(3) {
+    border-right: 1px solid white;
+}
+
+.follower-box div:nth-child(2) {
+    line-height: 22px;
+}
+
+.Followers-section .follower-box span {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.Followers-section .follower-box a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+/* follower section end */

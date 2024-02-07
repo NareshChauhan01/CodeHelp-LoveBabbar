@@ -59,6 +59,13 @@
     }
 
     /* hero-section-end */
+
+    /* followers section start */
+    .sub-follower-section {
+        width: 100%;
+    }
+
+    /* followers section end */
 }
 
 /* ------------- 1280px ------------- */
@@ -199,10 +206,19 @@
     }
 
     .hero-section .hero-student {
-        gap: 0.625rem;
+        gap: 1.2rem;
     }
 
     /* hero-section-end */
+
+
+    /* followers section start */
+
+    .Followers-section .follower-box span {
+        font-size: 2.25rem;
+    }
+
+    /* followers section end */
 }
 
 /* ------------- 850px ------------- */
@@ -225,6 +241,32 @@
 }
 
 /* ------------- 768px ------------- */
+
+
+/* ------------- 640px ------------- */
+@media (max-width:640px) {
+
+    /* followers section start */
+
+    .Followers-section {
+        padding: 64px 20px;
+    }
+
+    .sub-follower-section {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 4rem;
+    }
+
+    .sub-follower-section .youtube:nth-child(1),
+    .sub-follower-section .twitter:nth-child(2),
+    .sub-follower-section .instagram:nth-child(3) {
+        border-right: none;
+    }
+
+    /* followers section end */
+}
+
+/* ------------- 640px ------------- */
 
 /* ------------- 576px ------------- */
 @media (max-width:576px) {
