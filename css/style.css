@@ -505,6 +505,7 @@ nav .button {
 }
 
 .learning-box p:nth-child(3) {
+    /* border: 1px solid red; */
     max-width: 80%;
     color: var(--light-text-color);
     text-align: center;

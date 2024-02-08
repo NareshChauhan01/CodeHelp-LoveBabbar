@@ -346,3 +346,21 @@
 }
 
 /* ------------- 576px ------------- */
+
+/* ------------- 448px ------------- */
+@media(max-width:476px) {
+
+    /* learning sction start */
+    .learning-section .learning-box {
+        height: 410px;
+        overflow: hidden;
+    }
+
+    .learning-box p:nth-child(3) {
+        max-width: 86%;
+    }
+
+    /* learning sction end */
+}
+
+/* ------------- 476px ------------- */
