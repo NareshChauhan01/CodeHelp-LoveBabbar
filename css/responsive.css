@@ -351,9 +351,11 @@
 @media(max-width:476px) {
 
     /* learning sction start */
-    .learning-section .learning-box {
+    .sub-learning-2 .card-1,
+    .sub-learning-2 .card-2,
+    .sub-learning-2 .card-3 {
         height: 410px;
-        overflow: hidden;
+        /* background: #000; */
     }
 
     .learning-box p:nth-child(3) {

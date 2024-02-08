@@ -454,7 +454,7 @@ nav .button {
 }
 
 .learning-section .learning-box {
-    height: 343px;
+    height: 335px;
     padding: 48px 16px;
     display: flex;
     flex-direction: column;
@@ -516,7 +516,7 @@ nav .button {
     border-bottom: 6px solid #01A28E63;
 }
 
-.sub-learning-2 div:nth-child(2) {
+.sub-learning-2 .card-2 {
     border-bottom: 6px solid #e5303e63;
 }
 
