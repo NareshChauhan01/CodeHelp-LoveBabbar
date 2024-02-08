@@ -75,6 +75,18 @@
     }
 
     /* learning section end */
+
+    /* instructor section start */
+    .sub-instructor-section {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .instructor-section .line {
+        border-bottom: 2px solid var(--light-text-color);
+    }
+
+    /* instructor section end */
 }
 
 /* ------------- 1280px ------------- */
@@ -262,6 +274,23 @@
     }
 
     /* learning section end */
+
+    /* instructor section start */
+    .instructor-section .title h2 {
+        font-size: 24px;
+        color: var(--light-black);
+    }
+
+    .instructor-section .title button {
+        font-size: 14px;
+    }
+
+    .instructor-section .company-section {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5rem;
+    }
+
+    /* instructor section end */
 }
 
 /* ------------- 850px ------------- */
@@ -363,6 +392,31 @@
     }
 
     /* learning sction end */
+
+    /* instructor section start */
+
+    .instructor-section {
+        background-position: center 99%;
+    }
+
+    .instructor-section .title {
+        align-items: center;
+    }
+
+    .instructor-section .title button {
+        width: 150px;
+        padding: 8px 16px;
+    }
+
+    .instructor-section .title h2 {
+        line-height: 2.5rem;
+    }
+
+    .instructor-section .title h2 {
+        width: 70%;
+    }
+
+    /* instructor section end */
 }
 
 /* ------------- 476px ------------- */

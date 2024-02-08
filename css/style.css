@@ -541,5 +541,74 @@ nav .button {
     transition: all 0.2s linear;
 }
 
-
 /* learning section end */
+
+/* instructor section start */
+.instructor-section {
+    padding: 48px 24px;
+    background-image: url(../assets/asset\ 55.svg);
+    background-size: auto;
+    background-position: center 79%;
+    background-repeat: no-repeat;
+}
+
+.sub-instructor-section {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.instructor-section .title {
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.instructor-section .title h2 {
+    font-size: 42px;
+    color: var(--light-black);
+}
+
+.instructor-section span {
+    color: var(--light-blue-text);
+}
+
+.instructor-section .line {
+    border-bottom: 1px solid var(--light-text-color);
+}
+
+.instructor-section .love-babbar {
+    padding: 64px 0;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.instructor-section .love-babbar img {
+    width: 256px;
+    height: 256px;
+}
+
+.instructor-section .love-babbar p {
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.instructor-section .love-babbar span {
+    font-size: 24px;
+    color: var(--light-text-color);
+}
+
+.instructor-section .company-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px 0 96px;
+    text-align: center;
+}
+
+.instructor-section .company-section p {
+    color: #4A4f5c;
+    font-size: 20px;
+}
+
+
+/* instructor section End */
