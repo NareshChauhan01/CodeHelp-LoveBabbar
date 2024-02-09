@@ -299,9 +299,13 @@
     /* instructor section end */
 
     /* placement section start */
+    .placement-section {
+        padding: 55px 0 25px;
+    }
+
     .placement-section .sub-placement-section {
         flex-direction: column;
-        height: 850px;
+        height: 720px;
         align-items: self-start;
         justify-content: start;
     }
@@ -309,6 +313,8 @@
     .placement-section .left {
         width: 100%;
         justify-content: flex-start;
+        align-items: self-start;
+        height: 220px;
     }
 
     .placement-section .right {
@@ -497,6 +503,13 @@
     /* learning sction end */
 
     /* instructor section start */
+    .instructor-section {
+        padding: 48px 24px 0;
+    }
+
+    /* instructor section end */
+
+    /* instructor section start */
 
     .instructor-section {
         background-position: center 99%;
@@ -519,7 +532,11 @@
         width: 70%;
     }
 
-    /* instructor section end */
-}
+    .instructor-section .company-section {
+        padding: 40px 0 55px;
 
-/* ------------- 476px ------------- */
+        /* instructor section end */
+    }
+
+    /* ------------- 476px ------------- */
+}
