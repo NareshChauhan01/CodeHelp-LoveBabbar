@@ -158,6 +158,12 @@
     .sub-top-header {
         width: 768px;
     }
+
+    /* placement section start */
+    .placement-section .sub-placement-section {
+        width: 92%;
+        /* placement section end */
+    }
 }
 
 /* ------------- 992px ------------- */
@@ -291,11 +297,41 @@
     }
 
     /* instructor section end */
+
+    /* placement section start */
+    .placement-section .sub-placement-section {
+        flex-direction: column;
+        height: 850px;
+        align-items: self-start;
+        justify-content: start;
+    }
+
+    .placement-section .left {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .placement-section .right {
+        width: 100%;
+    }
+
+    .placement-section .sub-left span {
+        font-size: 16px;
+    }
+
+    .placement-section .sub-left div {
+        font-size: 24px;
+    }
+
+    .placement-section .left p {
+        font-size: 18px;
+    }
+
+    /* placement section end */
+
+    /* ------------- 850px ------------- */
+
 }
-
-/* ------------- 850px ------------- */
-
-
 
 /* ------------- 768px ------------- */
 @media (max-width:768px) {
@@ -336,6 +372,73 @@
     }
 
     /* followers section end */
+
+    /* placement section start */
+    .placement-section .right .outer-box {
+        width: 300px;
+        max-width: 300px;
+        height: 300px;
+    }
+
+    .placement-section .right .img-1 {
+        top: -48px;
+    }
+
+    .placement-section .right .img-2 {
+        top: -39px;
+        left: 176px;
+    }
+
+    .placement-section .right .img-3 {
+        top: 86px;
+        left: 223px;
+    }
+
+    .placement-section .right .img-4 {
+        top: 210px;
+        left: 156px;
+    }
+
+    .placement-section .right .img-5 {
+        top: 210px;
+        left: 13px;
+    }
+
+    .placement-section .right .img-6 {
+        top: 92px;
+        left: -67px;
+    }
+
+    /* inner */
+    .placement-section .inner-box .img-1 {
+        top: -69px;
+        left: -11px;
+    }
+
+    .placement-section .inner-box .img-2 {
+        top: 48px;
+        left: -10px;
+    }
+
+    .placement-section .inner-box .img-3 {
+        top: -9px;
+        left: -68px;
+    }
+
+    .placement-section .inner-box .img-4 {
+        top: -8px;
+        left: 49px;
+    }
+
+    .placement-section .right .inner-box {
+        top: 12%;
+        left: 13%;
+        width: 225px;
+        max-width: 225px;
+        height: 225px;
+    }
+
+    /* placement section end */
 }
 
 /* ------------- 640px ------------- */
