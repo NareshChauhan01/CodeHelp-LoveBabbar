@@ -667,7 +667,6 @@ nav .button {
    width: 45%;
    height: 2px;
    background-image: linear-gradient(to right, #777C85, hsla(219, 6%, 49%, 0));
-   z-index: 9999;
 }
 
 /* right */
