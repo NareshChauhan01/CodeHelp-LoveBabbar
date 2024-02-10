@@ -837,10 +837,7 @@ nav .button {
 
 .course-section .course .box {
    width: 400px;
-   height: 388px;
-
-   /* width: 50.4%; */
-   /* height: 36%; */
+   height: 388px;  
    padding: 20px;
    border-radius: 6px;
    background-color: #FFFFFF;

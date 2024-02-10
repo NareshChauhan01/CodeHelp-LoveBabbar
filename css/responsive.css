@@ -349,7 +349,6 @@
 
     .course-section .course {
         flex-direction: column;
-        /* border: 1px solid green; */
         align-items: center;
         row-gap: 2rem;
     }
@@ -554,5 +553,17 @@
 
     /* instructor section end */
 
-    /* ------------- 476px ------------- */
+
+    /* course-section start  */
+    .course-section .course .box {
+        width: 100%;
+        height: max-content;
+    }
+
+    /* course-section end  */
+
+
+
 }
+
+/* ------------- 476px ------------- */
