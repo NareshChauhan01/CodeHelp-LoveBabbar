@@ -87,6 +87,13 @@
     }
 
     /* instructor section end */
+
+    /* course section start */
+    .course-section .sub-course-section {
+        width: 100%;
+    }
+
+    /* course section end */
 }
 
 /* ------------- 1280px ------------- */
@@ -335,9 +342,27 @@
 
     /* placement section end */
 
-    /* ------------- 850px ------------- */
+    /* course section start */
+    .course-section .title {
+        font-size: 24px;
+    }
+
+    .course-section .course {
+        flex-direction: column;
+        /* border: 1px solid green; */
+        align-items: center;
+        row-gap: 2rem;
+    }
+
+    .course-section .course .box .course-name {
+        font-size: 18px;
+    }
+
+    /* course section end */
 
 }
+
+/* ------------- 850px ------------- */
 
 /* ------------- 768px ------------- */
 @media (max-width:768px) {
