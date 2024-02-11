@@ -837,7 +837,7 @@ nav .button {
 
 .course-section .course .box {
    width: 400px;
-   height: 388px;  
+   height: 388px;
    padding: 20px;
    border-radius: 6px;
    background-color: #FFFFFF;
@@ -898,3 +898,133 @@ nav .button {
 }
 
 /* learning section end */
+
+/* review section start */
+.review-section {
+   position: relative;
+   user-select: none;
+}
+
+.review-section .sub-review-section {
+   width: 85%;
+   margin: 0 auto;
+}
+
+.review-section .section-1 {
+   padding: 56px 64px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.review-section .section-1 .left span {
+   font-size: 20px;
+   color: var(--light-blue-text);
+   font-weight: 600;
+   margin-bottom: 8px;
+}
+
+.review-section .section-1 .left p {
+   font-size: 42px;
+   font-weight: 600;
+   color: var(--light-black);
+}
+
+.review-section .section-1 .right {
+   display: flex;
+   gap: 1rem;
+}
+
+.review-section .section-1 .right button {
+   width: 80px;
+   height: 40px;
+   border-radius: 9999px;
+   border: none;
+}
+
+.review-section .section-1 .right button svg {
+   width: 20px;
+   height: 20px;
+}
+
+.review-section .section-1 .right button:nth-child(1) {
+   background-color: #EDEDED;
+   color: #000000;
+}
+
+.review-section .section-1 .right button:nth-child(2) {
+   background-color: var(--light-blue-text);
+   color: #FFFFFF;
+}
+
+.review-section .hr-line {
+   width: 90%;
+   height: 2px;
+   margin: 0 auto;
+   background-image: linear-gradient(to left, rgb(191, 201, 242), hsla(219, 6%, 49%, 0));
+   margin-bottom: 6rem;
+}
+
+.slider-section {
+   height: max-content;
+   display: flex;
+   overflow-x: scroll;
+   padding: 2rem 0;
+}
+
+.review-section .slide {
+   width: 456px;
+   height: 302px;
+   min-width: 456px;
+   min-height: 302px;
+   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 8px 10px -6px rgba(0, 0, 0, .1);
+   border-radius: 10px;
+   padding: 40px 20px;
+   margin: 0 1.5rem;
+}
+
+.review-section .slide .user-text {
+   height: 150px;
+   line-height: 22px;
+   color: var(--light-text-color);
+}
+
+.review-section .slide .user-section {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 16px;
+   align-items: center;
+}
+
+.review-section .slide .user-info {
+   gap: 12px;
+}
+
+.review-section .slide .image img {
+   width: 54px;
+   height: 54px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.review-section .user-name {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+}
+
+.review-section .user-name span {
+   font-size: 14px;
+   font-weight: 600;
+}
+
+.review-section .user-name p {
+   font-size: 12px;
+}
+
+.review-section .star i {
+   color: darkorange;
+   font-size: 12px;
+}
+
+/* review section end */

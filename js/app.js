@@ -19,3 +19,4 @@ var typeData = new Typed(".role", {
     backDelay: 1000,
 });
 
+
