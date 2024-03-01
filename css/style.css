@@ -1028,3 +1028,72 @@ nav .button {
 }
 
 /* review section end */
+
+/* account section start */
+.account-section {
+   padding: 8rem 0;
+}
+
+.account-section .sub-account-section {
+   width: 85%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   gap: 4rem;
+}
+
+.account-section .description-section {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.account-section .description-section h3 {
+   font-size: 2.6rem;
+   color: #011229;
+}
+
+.account-section .description-section p {
+   font-size: 20px;
+   color: var(--light-text-color);
+}
+
+.account-section .icon-section {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   justify-content: space-evenly;
+   align-items: center;
+   align-content: center;
+}
+
+.account-section .icon-section div {
+   display: grid;
+   justify-content: center;
+   align-items: center;
+}
+
+.account-section .icon-section p {
+   display: flex;
+   gap: 1rem;
+   font-weight: 500;
+   justify-content: center;
+}
+
+.account-section .icon-section div:nth-child(1) p {
+   color: #FF0000;
+}
+
+.account-section .icon-section div:nth-child(2) p {
+   color: #0077B5;
+}
+
+.account-section .icon-section div:nth-child(3) p {
+   color: #5865F2;
+}
+
+.account-section .icon-section div:nth-child(4) p {
+   color: #229ED9;
+}
+
+/* account section end */
