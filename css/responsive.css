@@ -361,6 +361,13 @@
 
     /* course section end */
 
+    /* account section start */
+    .account-section .icon-section {
+        flex-wrap: wrap;
+    }
+
+    /* account section end */
+
 }
 
 /* ------------- 850px ------------- */
@@ -378,25 +385,6 @@
     }
 
     /* header-end */
-
-
-    /* account section Start */
-    .account-section .description-section h3 {
-        font-size: 2rem;
-        color: #011229;
-    }
-
-    .account-section .description-section p {
-        font-size: 18px;
-        color: var(--light-text-color);
-    }
-
-    .account-section .icon-section {
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 3rem;
-    }
-
-    /* account section end */
 }
 
 /* ------------- 768px ------------- */
@@ -582,19 +570,6 @@
     }
 
     /* course-section end  */
-
-
-    /* account section Start */
-
-    .account-section .icon-section {
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 3rem;
-    }
-
-    /* account section end */
-
-
-
 }
 
 /* ------------- 476px ------------- */

@@ -1039,7 +1039,7 @@ nav .button {
    margin: 0 auto;
    display: flex;
    flex-direction: column;
-   gap: 4rem;
+   gap: 6rem;
 }
 
 .account-section .description-section {
@@ -1060,17 +1060,9 @@ nav .button {
 }
 
 .account-section .icon-section {
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   justify-content: space-evenly;
-   align-items: center;
-   align-content: center;
-}
-
-.account-section .icon-section div {
-   display: grid;
+   display: flex;
    justify-content: center;
-   align-items: center;
+   gap: 5rem;
 }
 
 .account-section .icon-section p {
