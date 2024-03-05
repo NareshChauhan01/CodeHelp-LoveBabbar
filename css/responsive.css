@@ -1,7 +1,7 @@
 /* ------------- 1280px ------------- */
 @media(max-width:1280px) {
 
-    /* header start */
+    /* Header Start */
     .top-header {
         height: 4.7rem;
         display: flex;
@@ -13,7 +13,7 @@
         gap: 0.625rem;
     }
 
-    /* nav-start */
+    /* Nav-Start */
     nav .primary-button span {
         font-size: .875rem;
     }
@@ -26,11 +26,11 @@
         width: 70%;
     }
 
-    /* nav-end */
-    /* header end */
+    /* Nav-End */
+    /* Header End */
 
-    /* hero-section-start */
-    /* left */
+    /* Hero-Section-Start */
+    /* Left */
     .hero-section .left .slide-text span {
         font-size: 2.25rem;
     }
@@ -58,25 +58,25 @@
         display: unset;
     }
 
-    /* hero-section-end */
+    /* Hero-Section-End */
 
-    /* followers section start */
+    /* Followers Section Start */
     .sub-follower-section {
         width: 100%;
     }
 
-    /* followers section end */
+    /* Followers Section End */
 
-    /* learning section start */
+    /* Learning Section Start */
 
     .learning-section .sub-learning-2 {
         grid-template-columns: repeat(2, 1fr);
         margin: 0 56px;
     }
 
-    /* learning section end */
+    /* Learning Section End */
 
-    /* instructor section start */
+    /* Instructor Section Start */
     .sub-instructor-section {
         width: 100%;
         margin: 0 auto;
@@ -86,23 +86,23 @@
         border-bottom: 2px solid var(--light-text-color);
     }
 
-    /* instructor section end */
+    /* Instructor Section End */
 
-    /* course section start */
+    /* Course Section Start */
     .course-section .sub-course-section {
         width: 100%;
     }
 
-    /* course section end */
+    /* Course Section End */
 
-    /* footer start */
+    /* Footer Start */
     footer .sub-footer-section {
         width: 100%;
         justify-content: space-between;
         padding: 0 1rem;
     }
 
-    /* footer end */
+    /* Footer End */
 
 }
 
@@ -132,7 +132,7 @@
 /* ------------- 1024px ------------- */
 @media(max-width:1024px) {
 
-    /* hero-section-start */
+    /* Hero-Section-Start */
     .sub-hero-section {
         width: 92%;
     }
@@ -141,9 +141,9 @@
         height: 500px;
     }
 
-    /* hero-section-end */
+    /* Hero-Section-End */
 
-    /* learning section start */
+    /* Larning Section Start */
 
     .learning-section .sub-learning-2 {
         grid-template-columns: repeat(1, 1fr);
@@ -163,7 +163,7 @@
         max-width: 442px;
     }
 
-    /* learning section end */
+    /* Learning Section End */
 }
 
 /* ------------- 1024px ------------- */
@@ -176,14 +176,14 @@
         width: 768px;
     }
 
-    /* placement section start */
+    /* Placement Section Start */
     .placement-section .sub-placement-section {
         width: 92%;
     }
 
-    /* placement section end */
+    /* Placement Section End */
 
-    /* footer start */
+    /* Footer Start */
 
     footer .sub-footer-section {
         flex-direction: column;
@@ -218,7 +218,7 @@
         gap: 3rem;
     }
 
-    /* footer end */
+    /* Footer End */
 
 }
 
@@ -228,7 +228,7 @@
 /* ------------- 850px ------------- */
 @media(max-width:850px) {
 
-    /* nav-start */
+    /* Nav-Start */
     nav {
         position: relative;
     }
@@ -277,9 +277,9 @@
         display: none;
     }
 
-    /* nav-end */
+    /* Nav-End */
 
-    /* hero-section-start */
+    /* Hero-Section-Start */
     .sub-hero-section {
         margin-top: 1.3rem;
         height: 1080px;
@@ -314,18 +314,18 @@
         gap: 1.2rem;
     }
 
-    /* hero-section-end */
+    /* Hero-Section-End */
 
 
-    /* followers section start */
+    /* Followers Section Start */
 
     .Followers-section .follower-box span {
         font-size: 2.25rem;
     }
 
-    /* followers section end */
+    /* Followers Section End */
 
-    /* learning section start */
+    /* Learning Section Start */
     .learning-section .sub-section-1 {
         line-height: 32px;
     }
@@ -335,9 +335,9 @@
         width: 100%;
     }
 
-    /* learning section end */
+    /* Learning Section End */
 
-    /* instructor section start */
+    /* Instructor Section Start */
     .instructor-section .title h2 {
         font-size: 24px;
         color: var(--light-black);
@@ -352,9 +352,9 @@
         gap: 5rem;
     }
 
-    /* instructor section end */
+    /* Instructor Section End */
 
-    /* placement section start */
+    /* Placement Section Start */
     .placement-section {
         padding: 80px 0 25px;
     }
@@ -389,9 +389,9 @@
         font-size: 18px;
     }
 
-    /* placement section end */
+    /* Placement Section End */
 
-    /* course section start */
+    /* Course Section Start */
     .course-section .title {
         font-size: 24px;
     }
@@ -406,14 +406,14 @@
         font-size: 18px;
     }
 
-    /* course section end */
+    /* Course Section End */
 
-    /* account section start */
+    /* Account Section Start */
     .account-section .icon-section {
         flex-wrap: wrap;
     }
 
-    /* account section end */
+    /* Account Cection End */
 
 }
 
@@ -422,7 +422,7 @@
 /* ------------- 768px ------------- */
 @media (max-width:768px) {
 
-    /* header-start */
+    /* Header-Start */
     .sub-top-header {
         width: 576px;
     }
@@ -431,7 +431,7 @@
         height: 992px;
     }
 
-    /* header-end */
+    /* Header-End */
 }
 
 /* ------------- 768px ------------- */
@@ -440,7 +440,7 @@
 /* ------------- 640px ------------- */
 @media (max-width:640px) {
 
-    /* followers section start */
+    /* Followers Section Start */
 
     .Followers-section {
         padding: 64px 20px;
@@ -457,9 +457,9 @@
         border-right: none;
     }
 
-    /* followers section end */
+    /* Followers Section End */
 
-    /* placement section start */
+    /* Placement Section Start */
     .placement-section .right .outer-box {
         width: 300px;
         max-width: 300px;
@@ -495,7 +495,7 @@
         left: -67px;
     }
 
-    /* inner */
+    /* Inner */
     .placement-section .inner-box .img-1 {
         top: -69px;
         left: -11px;
@@ -524,7 +524,7 @@
         height: 225px;
     }
 
-    /* placement section end */
+    /* Placement Section End */
 }
 
 /* ------------- 640px ------------- */
@@ -532,7 +532,7 @@
 /* ------------- 576px ------------- */
 @media (max-width:576px) {
 
-    /* header start */
+    /* Header Start */
     .sub-top-header {
         width: 448px;
     }
@@ -545,23 +545,23 @@
         gap: 8px;
     }
 
-    /* header end */
+    /* Header End */
 
-    /* .hero-section-start */
+    /* Hero-Section-Start */
     .sub-hero-section {
         height: 786px;
     }
 
-    /* .hero-section-end */
+    /* Hero-Section-End */
 
-    /* learing seaction start */
+    /* Learing Seaction Start */
     .learning-section .learning-box div {
         padding: 16px;
     }
 
-    /* learing seaction end */
+    /* Learing Seaction End */
 
-    /* footer start */
+    /* Footer Start */
     footer .logo-links {
         width: 100%;
     }
@@ -574,28 +574,27 @@
         width: 100%;
     }
 
-    /* footer end */
+    /* Footer End */
 
     /* ------------- 576px ------------- */
 
     /* ------------- 448px ------------- */
     @media(max-width:476px) {
 
-        /* learning sction start */
+        /* Learning Sction Start */
         .sub-learning-2 .card-1,
         .sub-learning-2 .card-2,
         .sub-learning-2 .card-3 {
             height: 410px;
-            /* background: #000; */
         }
 
         .learning-box p:nth-child(3) {
             max-width: 86%;
         }
 
-        /* learning sction end */
+        /* Learning Section End */
 
-        /* instructor section start */
+        /* Instructor Section Start */
         .instructor-section {
             padding: 48px 24px 0;
         }
@@ -621,16 +620,16 @@
             width: 70%;
         }
 
-        /* instructor section end */
+        /* Instructor Section End */
 
 
-        /* course-section start  */
+        /* Course-Section Start  */
         .course-section .course .box {
             width: 100%;
             height: max-content;
         }
 
-        /* course-section end  */
+        /* Course-Section End  */
     }
 
     /* ------------- 476px ------------- */

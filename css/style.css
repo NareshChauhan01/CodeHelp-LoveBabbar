@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
 
-/* resets */
+/* Resets */
 * {
    margin: 0;
    padding: 0;
@@ -133,7 +133,7 @@ header .right-section button svg {
    transform: rotate(135deg);
 }
 
-/* nav-start */
+/* Nav-Start */
 nav {
    background-color: var(--gray-white);
    padding: 16px 0;
@@ -142,7 +142,6 @@ nav {
 }
 
 nav .sub-nav {
-   /* width: 1300px; */
    width: 85%;
    margin: auto;
    display: flex;
@@ -225,9 +224,9 @@ nav .button {
    display: none;
 }
 
-/* nav-end */
+/* Nav-End */
 
-/* hero section start*/
+/* Hero Section Start*/
 .hero-section {
    margin-top: 9.3rem;
    background-image: linear-gradient(to right, #f7f8fc 40%, #f1e4ff);
@@ -254,7 +253,7 @@ nav .button {
    gap: 1.3rem;
 }
 
-/* left */
+/* Left */
 .hero-section .left span:first-child {
    color: var(--light-blue-text);
 }
@@ -309,7 +308,7 @@ nav .button {
    color: #777c85;
 }
 
-/* right */
+/* Right */
 .hero-section .right {
    width: 55%;
    position: relative;
@@ -364,9 +363,9 @@ nav .button {
    }
 }
 
-/* hero section end*/
+/* Hero Section End*/
 
-/* follower section start */
+/* Follower Section Start */
 .Followers-section {
    background-color: var(--light-blue-text);
    color: #FFFFFF;
@@ -412,9 +411,9 @@ nav .button {
    text-decoration: underline;
 }
 
-/* follower section end */
+/* Follower Section End */
 
-/* learning section start */
+/* Learning Section Start */
 .learning-section {
    background-color: var(--gray-white);
    padding: 3rem 0;
@@ -505,7 +504,6 @@ nav .button {
 }
 
 .learning-box p:nth-child(3) {
-   /* border: 1px solid red; */
    max-width: 80%;
    color: var(--light-text-color);
    text-align: center;
@@ -541,9 +539,9 @@ nav .button {
    transition: all 0.2s linear;
 }
 
-/* learning section end */
+/* Learning Section End */
 
-/* instructor section start */
+/* Instructor Section Start */
 .instructor-section {
    padding: 48px 24px;
    background-size: auto;
@@ -610,9 +608,9 @@ nav .button {
    font-size: 20px;
 }
 
-/* instructor section End */
+/* Instructor Section End */
 
-/* placement section start */
+/* Placement Section Start */
 
 .placement-section {
    padding: 96px 0;
@@ -628,7 +626,7 @@ nav .button {
    align-items: center;
 }
 
-/* left */
+/* Left */
 .placement-section .left {
    width: 45%;
    height: 376px;
@@ -669,7 +667,7 @@ nav .button {
    background-image: linear-gradient(to right, #777C85, hsla(219, 6%, 49%, 0));
 }
 
-/* right */
+/* Right */
 .placement-section .right {
    width: 60%;
    height: 376px;
@@ -741,7 +739,7 @@ nav .button {
    }
 }
 
-/* inner box */
+/* Inner Box */
 .placement-section .right .inner-box {
    position: absolute;
    top: 12%;
@@ -797,9 +795,9 @@ nav .button {
    }
 }
 
-/* placement section end */
+/* Placement Section End */
 
-/* course section start */
+/* Course Section Start */
 .course-section {
    background-color: var(--gray-white);
 }
@@ -897,9 +895,9 @@ nav .button {
    border-radius: 6px;
 }
 
-/* learning section end */
+/* Course Section End */
 
-/* review section start */
+/* Review Section Start */
 .review-section {
    position: relative;
    user-select: none;
@@ -1027,9 +1025,9 @@ nav .button {
    font-size: 12px;
 }
 
-/* review section end */
+/* Review Section End */
 
-/* account section start */
+/* Account Aection Start */
 .account-section {
    padding: 8rem 0;
 }
@@ -1088,9 +1086,9 @@ nav .button {
    color: #229ED9;
 }
 
-/* account section end */
+/* Account Section End */
 
-/* footer-start */
+/* Footer-Start */
 footer {
    background-color: var(--light-blue-text);
    color: var(--white);
@@ -1160,4 +1158,4 @@ footer .support-email {
    align-items: center;
 }
 
-/* footer-end */
+/* Footer-End */
