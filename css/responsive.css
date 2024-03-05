@@ -94,6 +94,16 @@
     }
 
     /* course section end */
+
+    /* footer start */
+    footer .sub-footer-section {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    /* footer end */
+
 }
 
 /* ------------- 1280px ------------- */
@@ -172,6 +182,43 @@
     }
 
     /* placement section end */
+
+    /* footer start */
+
+    footer .sub-footer-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        padding: 1rem 0;
+    }
+
+    footer .logo {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer .footer-links h4 {
+        font-size: 18px;
+    }
+
+    footer .logo-links {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        gap: 3rem;
+    }
+
+    footer .footer-links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    /* footer end */
 
 }
 
@@ -513,63 +560,78 @@
     }
 
     /* learing seaction end */
-}
 
-/* ------------- 576px ------------- */
-
-/* ------------- 448px ------------- */
-@media(max-width:476px) {
-
-    /* learning sction start */
-    .sub-learning-2 .card-1,
-    .sub-learning-2 .card-2,
-    .sub-learning-2 .card-3 {
-        height: 410px;
-        /* background: #000; */
-    }
-
-    .learning-box p:nth-child(3) {
-        max-width: 86%;
-    }
-
-    /* learning sction end */
-
-    /* instructor section start */
-    .instructor-section {
-        padding: 48px 24px 0;
-    }
-
-    .instructor-section {
-        background-position: center 99%;
-    }
-
-    .instructor-section .title {
-        align-items: center;
-    }
-
-    .instructor-section .title button {
-        width: 150px;
-        padding: 8px 16px;
-    }
-
-    .instructor-section .title h2 {
-        line-height: 2.5rem;
-    }
-
-    .instructor-section .title h2 {
-        width: 70%;
-    }
-
-    /* instructor section end */
-
-
-    /* course-section start  */
-    .course-section .course .box {
+    /* footer start */
+    footer .logo-links {
         width: 100%;
-        height: max-content;
     }
 
-    /* course-section end  */
-}
+    footer .footer-links {
+        width: 100%;
+    }
 
-/* ------------- 476px ------------- */
+    footer .support-email {
+        width: 100%;
+    }
+
+    /* footer end */
+
+    /* ------------- 576px ------------- */
+
+    /* ------------- 448px ------------- */
+    @media(max-width:476px) {
+
+        /* learning sction start */
+        .sub-learning-2 .card-1,
+        .sub-learning-2 .card-2,
+        .sub-learning-2 .card-3 {
+            height: 410px;
+            /* background: #000; */
+        }
+
+        .learning-box p:nth-child(3) {
+            max-width: 86%;
+        }
+
+        /* learning sction end */
+
+        /* instructor section start */
+        .instructor-section {
+            padding: 48px 24px 0;
+        }
+
+        .instructor-section {
+            background-position: center 99%;
+        }
+
+        .instructor-section .title {
+            align-items: center;
+        }
+
+        .instructor-section .title button {
+            width: 150px;
+            padding: 8px 16px;
+        }
+
+        .instructor-section .title h2 {
+            line-height: 2.5rem;
+        }
+
+        .instructor-section .title h2 {
+            width: 70%;
+        }
+
+        /* instructor section end */
+
+
+        /* course-section start  */
+        .course-section .course .box {
+            width: 100%;
+            height: max-content;
+        }
+
+        /* course-section end  */
+    }
+
+    /* ------------- 476px ------------- */
+}

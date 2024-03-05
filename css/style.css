@@ -1089,3 +1089,75 @@ nav .button {
 }
 
 /* account section end */
+
+/* footer-start */
+footer {
+   background-color: var(--light-blue-text);
+   color: var(--white);
+   padding-top: 3rem;
+}
+
+footer .sub-footer-section {
+   width: 85%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   gap: 8rem;
+   border-bottom: 1px solid #7380d0;
+   padding: 2rem 0;
+}
+
+footer h4 {
+   font-weight: 500;
+}
+
+footer .logo {
+   display: flex;
+   gap: 10px;
+   flex-direction: column;
+   align-items: start;
+}
+
+footer .logo img {
+   width: 25%;
+}
+
+footer .logo-links {
+   width: 70%;
+   border-right: 1.5px solid var(--white);
+   justify-content: space-evenly;
+}
+
+footer .footer-links {
+   text-align: center;
+   width: 35%;
+   justify-content: space-between;
+   display: flex;
+}
+
+footer .footer-links h4 {
+   margin-bottom: 1.2rem;
+}
+
+footer .footer-links p {
+   margin-bottom: 12px;
+}
+
+footer .support-email {
+   text-align: center;
+   width: 25%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 1.5rem;
+}
+
+.sub-footer {
+   height: 80px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* footer-end */
